@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AeonicTech.Data\AeonicTech.Data.csproj" />
+    <ProjectReference Include="..\..\AeonicTech.Model\AeonicTech.Model.DBO\AeonicTech.Model.DBO.csproj" />
+    <ProjectReference Include="..\..\AeonicTech.Model\AeonicTech.Model.DTO\AeonicTech.Model.DTO.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Office\" />
+    <Folder Include="Services\Employee\" />
+    <Folder Include="Manager\" />
+  </ItemGroup>
+</Project>

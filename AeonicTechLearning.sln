@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonicTech.WebAPI", "AeonicTechLearning\AeonicTech.WebAPI.csproj", "{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonicTech.Data", "AeonicTech.Data\AeonicTech.Data.csproj", "{0862F0D1-FF50-4317-99F5-C6C0098F037A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AeonicTech.Model", "AeonicTech.Model", "{093E8FDF-632A-4BBA-A7A7-AE49EE3E4C07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AeonicTech.Core", "AeonicTech.Core", "{691C20CE-311A-4E1C-A00F-7C50C5C1ADB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonicTech.Core.Service", "AeonicTech.Core\AeonicTech.Model.Service\AeonicTech.Core.Service.csproj", "{08815536-B00C-48EA-A252-982DAF4B15F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonicTech.Model.DBO", "AeonicTech.Model\AeonicTech.Model.DBO\AeonicTech.Model.DBO.csproj", "{14895015-10B4-406E-8CD9-9A0D60B8D130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeonicTech.Model.DTO", "AeonicTech.Model\AeonicTech.Model.DTO\AeonicTech.Model.DTO.csproj", "{11485D9D-023D-419C-BA49-068BA1551B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AeonicTech.Data", "AeonicTech.Data", "{69B654CD-C162-4EA4-948C-2154951CDE96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AeonicTech.API", "AeonicTech.API", "{38E8FBB3-DCAF-4E61-B7CA-E6D313BB97FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0862F0D1-FF50-4317-99F5-C6C0098F037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0862F0D1-FF50-4317-99F5-C6C0098F037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0862F0D1-FF50-4317-99F5-C6C0098F037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0862F0D1-FF50-4317-99F5-C6C0098F037A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08815536-B00C-48EA-A252-982DAF4B15F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08815536-B00C-48EA-A252-982DAF4B15F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08815536-B00C-48EA-A252-982DAF4B15F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08815536-B00C-48EA-A252-982DAF4B15F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14895015-10B4-406E-8CD9-9A0D60B8D130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14895015-10B4-406E-8CD9-9A0D60B8D130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14895015-10B4-406E-8CD9-9A0D60B8D130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14895015-10B4-406E-8CD9-9A0D60B8D130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11485D9D-023D-419C-BA49-068BA1551B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11485D9D-023D-419C-BA49-068BA1551B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11485D9D-023D-419C-BA49-068BA1551B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11485D9D-023D-419C-BA49-068BA1551B87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB0689FA-0159-463E-9F1F-FE53F9A749D9}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08815536-B00C-48EA-A252-982DAF4B15F8} = {691C20CE-311A-4E1C-A00F-7C50C5C1ADB0}
+		{14895015-10B4-406E-8CD9-9A0D60B8D130} = {093E8FDF-632A-4BBA-A7A7-AE49EE3E4C07}
+		{11485D9D-023D-419C-BA49-068BA1551B87} = {093E8FDF-632A-4BBA-A7A7-AE49EE3E4C07}
+		{0862F0D1-FF50-4317-99F5-C6C0098F037A} = {69B654CD-C162-4EA4-948C-2154951CDE96}
+		{1A931F81-50AB-4A09-BEC0-C3CAF4E7960A} = {38E8FBB3-DCAF-4E61-B7CA-E6D313BB97FB}
+	EndGlobalSection
+EndGlobal
